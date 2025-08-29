@@ -1,26 +1,33 @@
 import React, { useState, useEffect } from "react";
 import { GalleryThumbnails, View, Users } from "lucide-react";
-import { ethnicData } from "../data/ethnicData";
 
 export const HeritageGallery = ({
   selectedEthnic,
   onExhibitSelect,
   onNavigate,
 }) => {
+  const [exhibits, setExhibits] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const exhibits =
-    (selectedEthnic && ethnicData[selectedEthnic.id]?.exhibits) || [];
-  const allCategories = [
-    "All",
-    ...new Set(exhibits.map((item) => item.category)),
-  ];
+  const [allCategories, setAllCategories] = useState(["All"]);
   const [activeCategory, setActiveCategory] = useState("All");
 
   useEffect(() => {
-    setIsLoading(true);
-    const timer = setTimeout(() => setIsLoading(false), 300); // Simulate loading
-    return () => clearTimeout(timer);
-  }, [selectedEthnic, activeCategory]);
+    if (selectedEthnic) {
+      setIsLoading(true);
+      fetch(`http://localhost:3001/api/heritage?ethnic=${selectedEthnic.id}`)
+        .then((res) => res.json())
+        .then((data) => {
+          setExhibits(data);
+          const categories = ["All", ...new Set(data.map((item) => item.category))];
+          setAllCategories(categories);
+          setIsLoading(false);
+        })
+        .catch((error) => {
+          console.error("Error fetching heritage data:", error);
+          setIsLoading(false);
+        });
+    }
+  }, [selectedEthnic]);
 
   const filteredExhibits =
     activeCategory === "All"

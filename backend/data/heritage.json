@@ -1,0 +1,227 @@
+[
+  {
+    "id": "sompoton",
+    "title": "The Sompoton",
+    "category": "Musical Instruments",
+    "imageUrl": "assets/images/culturalHeritage/SOMPOTON.jpg",
+    "description": "The Sompoton is a mouth organ made from a gourd with bamboo pipes, unique to the Dusun people.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "dusun"
+  },
+  {
+    "id": "tangkong",
+    "title": "Tangkong",
+    "category": "Traditional Attire",
+    "imageUrl": "assets/images/culturalHeritage/TANGKONG & himpogot 2.jpg",
+    "description": "The Tangkong is a traditional Dusun hip-belt made of brass rings worn by women.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "dusun"
+  },
+  {
+    "id": "hinava",
+    "title": "Hinava",
+    "category": "Cuisine",
+    "imageUrl": "assets/images/culturalHeritage/Hinava2.jpg.png",
+    "description": "A traditional dish of the Kadazan-Dusun people, Hinava is made from fresh, raw fish cured in lime juice.",
+    "ingredients": ["Fresh Mackerel", "Lime Juice", "Bird's Eye Chili", "Ginger", "Shallots"],
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "dusun"
+  },
+  {
+    "id": "huminodun",
+    "title": "The Legend of Huminodun",
+    "category": "Literature & Folklore",
+    "imageUrl": "assets/images/culturalHeritage/huminodun.jpeg",
+    "description": "A central figure in Kadazan-Dusun mythology, Huminodun was a maiden who sacrificed herself to save her people from famine, her body parts giving rise to rice and other essential crops.",
+    "audioUrl": "/audio/huminodun_story.mp3",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "dusun"
+  },
+  {
+    "id": "tajau",
+    "title": "Tajau Jar",
+    "category": "Historical Artifacts",
+    "imageUrl": "assets/images/culturalHeritage/Tajau.jpg",
+    "description": "The Tajau is a large earthenware jar, traditionally used for storing rice wine (lihing), water, or as a burial jar. It is a symbol of wealth and status.",
+    "arEnabled": true,
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "dusun"
+  },
+  {
+    "id": "sumazau",
+    "title": "Sumazau Dance",
+    "category": "Dance & Performance",
+    "imageUrl": "assets/images/culturalHeritage/SUMAZAU 2.png",
+    "description": "The Sumazau is a traditional Kadazan-Dusun dance inspired by the eagle's flight, performed during the harvest festival (Tadau Kaamatan).",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "dusun"
+  },
+  {
+    "id": "sape",
+    "title": "The Sape'",
+    "category": "Musical Instruments",
+    "imageUrl": "https://placehold.co/600x400/332C2B/FFF?text=Sape%27",
+    "description": "The Sape' is a traditional lute, famously played by the Iban and other Orang Ulu communities.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "iban"
+  },
+  {
+    "id": "ngajat",
+    "title": "Ngajat Dance",
+    "category": "Dance & Performance",
+    "imageUrl": "https://placehold.co/600x400/5A4D4B/FFF?text=Ngajat+Dance",
+    "description": "The Ngajat dance is a traditional warrior dance of the Iban people.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "iban"
+  },
+  {
+    "id": "pua_kumbu",
+    "title": "Pua Kumbu",
+    "category": "Art & Crafts",
+    "imageUrl": "https://placehold.co/600x400/7C6F6E/FFF?text=Pua+Kumbu",
+    "description": "Pua Kumbu is a sacred and ceremonial textile woven by Iban women.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "iban"
+  },
+  {
+    "id": "ruai",
+    "title": "Rumah Ruai",
+    "category": "Architecture",
+    "imageUrl": "https://placehold.co/600x400/6D28D9/FFF?text=Ruai",
+    "description": "The Ruai is the communal longhouse gallery in Iban architecture. It serves as a social space for gatherings, rituals, and community activities.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "iban"
+  },
+  {
+    "id": "iban_longhouse_tour",
+    "title": "Iban Longhouse Tour",
+    "category": "Virtual Tours",
+    "type": "vr",
+    "imageUrl": "https://placehold.co/1920x1080/4A3F3D/FFF",
+    "description": "Step inside a traditional Iban longhouse. Look around to see the communal living space, the individual family rooms (bilik), and the intricate carvings that adorn the structure.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "iban"
+  },
+  {
+    "id": "tongkungon",
+    "title": "Tongkungon",
+    "category": "Musical Instruments",
+    "imageUrl": "assets/images/culturalHeritage/Tongkungon.jpeg",
+    "description": "The Tongkungon is a traditional Kadazan-Dusun plucked tube zither made from a single bamboo stem, and it is played as an alternative to a gong ensemble.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "kadazan"
+  },
+  {
+    "id": "bainun",
+    "title": "Traditional Attire",
+    "category": "Traditional Attire",
+    "imageUrl": "https://placehold.co/600x400/5A4D4B/FFF?text=Bainun",
+    "description": "Traditional Kadazan clothing includes colorful woven fabrics and intricate beadwork.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "kadazan"
+  },
+  {
+    "id": "hinava",
+    "title": "Hinava",
+    "category": "Cuisine",
+    "imageUrl": "https://placehold.co/600x400/8B5CF6/FFF?text=Hinava",
+    "description": "A traditional dish of the Kadazan-Dusun people, Hinava is made from fresh, raw fish cured in lime juice.",
+    "ingredients": ["Fresh Mackerel", "Lime Juice", "Bird's Eye Chili", "Ginger", "Shallots"],
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "kadazan"
+  },
+  {
+    "id": "tadau_kaamatan",
+    "title": "Tadau Kaamatan",
+    "category": "Festivals",
+    "imageUrl": "https://placehold.co/600x400/10B981/FFF?text=Festival",
+    "description": "The annual Harvest Festival (Tadau Kaamatan) is the most important celebration for the Kadazan people.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "kadazan"
+  },
+  {
+    "id": "sumazau",
+    "title": "Sumazau Dance",
+    "category": "Dance & Performance",
+    "imageUrl": "https://placehold.co/600x400/EC4899/FFF?text=Sumazau",
+    "description": "The Sumazau is a traditional Kadazan-Dusun dance inspired by the eagle's flight, performed during the harvest festival (Tadau Kaamatan).",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "kadazan"
+  },
+  {
+    "id": "suling",
+    "title": "Suling",
+    "category": "Musical Instruments",
+    "imageUrl": "https://placehold.co/600x400/332C2B/FFF?text=Suling",
+    "description": "The Suling is a bamboo flute used in traditional Murut ceremonies.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "murut"
+  },
+  {
+    "id": "traditional_attire",
+    "title": "Traditional Attire",
+    "category": "Traditional Attire",
+    "imageUrl": "https://placehold.co/600x400/5A4D4B/FFF?text=Attire",
+    "description": "Traditional Murut clothing includes distinctive tattoos and woven accessories.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "murut"
+  },
+  {
+    "id": "tapai",
+    "title": "Tapai",
+    "category": "Cuisine",
+    "imageUrl": "https://placehold.co/600x400/8B5CF6/FFF?text=Tapai",
+    "description": "A traditional fermented rice dish that is a staple in Murut cuisine.",
+    "ingredients": ["Glutinous Rice", "Rice Fermenting Starter", "Banana Leaves"],
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "murut"
+  },
+  {
+    "id": "longhouse",
+    "title": "Traditional Longhouse",
+    "category": "Architecture",
+    "imageUrl": "https://placehold.co/600x400/10B981/FFF?text=Longhouse",
+    "description": "The traditional Murut longhouse was a communal living space that could house multiple families.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "murut"
+  },
+  {
+    "id": "beadwork",
+    "title": "Traditional Beadwork",
+    "category": "Art & Crafts",
+    "imageUrl": "https://placehold.co/600x400/EC4899/FFF?text=Beadwork",
+    "description": "Intricate beadwork is a hallmark of Murut craftsmanship, often used in ceremonial attire.",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "murut"
+  },
+  {
+    "id": "lepa_lepa",
+    "title": "Lepa-Lepa Boat",
+    "category": "Maritime Heritage",
+    "imageUrl": "https://placehold.co/600x400/2563EB/FFF?text=Lepa-Lepa",
+    "description": "The iconic Bajau single-hulled sailing boat, central to festivals like Regatta Lepa in Semporna.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "bajau"
+  },
+  {
+    "id": "igal",
+    "title": "Igal Dance",
+    "category": "Dance & Performance",
+    "imageUrl": "https://placehold.co/600x400/F59E0B/FFF?text=Igal",
+    "description": "A graceful traditional dance with flowing arm movements, often accompanied by kulintangan music.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "bajau"
+  },
+  {
+    "id": "kulintangan",
+    "title": "Kulintangan Ensemble",
+    "category": "Musical Instruments",
+    "imageUrl": "https://placehold.co/600x400/0EA5E9/FFF?text=Kulintangan",
+    "description": "A set of small, horizontally-laid gongs played with drums—shared across coastal Borneo cultures.",
+    "model_url": "/models/placeholder.glb",
+    "ethnicGroup": "bajau"
+  }
+]
